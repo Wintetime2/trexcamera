@@ -1,0 +1,136 @@
+SHRUTI@SHASHIKANT-PC MINGW32 ~
+$ git config --global user.name "Wintetime2"
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~
+$ git config --global user.email "abhi4423mar@gmail.com"
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~
+$ pwd
+/c/Users/SHRUTI.SHASHIKANT-PC
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~
+$ ls
+'3D Objects'/
+'Adobe Flash Builder 4.5'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{b394265b-18b2-11ea-a815-000d3aa4c730}.TM.blf
+ NTUSER.DAT{b394265b-18b2-11ea-a815-000d3aa4c730}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{b394265b-18b2-11ea-a815-000d3aa4c730}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ agent.log
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~
+$ cd /c/Users/SHRUTI.SHASHIKANT-PC/Downloads
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~/Downloads
+$ pwd
+/c/Users/SHRUTI.SHASHIKANT-PC/Downloads
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~/Downloads
+$ mkdir class26
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~/Downloads
+$ cd class26
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~/Downloads/class26
+$ git clone https://github.com/whitehatjr/AngryBirdsStage2.5StudentActivity.git
+Cloning into 'AngryBirdsStage2.5StudentActivity'...
+remote: Enumerating objects: 44, done.
+remote: Total 44 (delta 0), reused 0 (delta 0), pack-reused 44
+Receiving objects: 100% (44/44), 2.54 MiB | 448.00 KiB/s, done.
+Resolving deltas: 100% (13/13), done.
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~/Downloads/class26
+$ ls
+AngryBirdsStage2.5StudentActivity/
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~/Downloads/class26
+$ cd ^C
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~/Downloads/class26
+$ cd
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~
+$
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~
+$
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~
+$
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~
+$ cd AngryBirdsStage2.5StudentActivity
+bash: cd: AngryBirdsStage2.5StudentActivity: No such file or directory
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~
+$ cd /c/Users/SHRUTI.SHASHIKANT-PC/Downloads/class26/AngryBirdsStage2.5StudentActivity
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~/Downloads/class26/AngryBirdsStage2.5StudentActivity (master)
+$ ls
+BaseClass.js  Bird.js  Box.js  Ground.js  Log.js  Pig.js  README.md  index.html  matter.js  p5.dom.min.js  p5.min.js  p5.sound.min.js  sketch.js  sprites/  style.css
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~/Downloads/class26/AngryBirdsStage2.5StudentActivity (master)
+$ git add sketch.js
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~/Downloads/class26/AngryBirdsStage2.5StudentActivity (master)
+$ git commit -m "changes the colour of the platform"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Ground.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~/Downloads/class26/AngryBirdsStage2.5StudentActivity (master)
+$ git add Ground.js
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~/Downloads/class26/AngryBirdsStage2.5StudentActivity (master)
+$ git remote add test https://github.com/Wintetime2/class26.git
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~/Downloads/class26/AngryBirdsStage2.5StudentActivity (master)
+$ git push -u test
+Enumerating objects: 44, done.
+Counting objects: 100% (44/44), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (27/27), done.
+Writing objects: 100% (44/44), 2.54 MiB | 315.00 KiB/s, done.
+Total 44 (delta 13), reused 44 (delta 13), pack-reused 0
+remote: Resolving deltas: 100% (13/13), done.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/Wintetime2/class26/pull/new/master
+remote:
+To https://github.com/Wintetime2/class26.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'test'.
+
+SHRUTI@SHASHIKANT-PC MINGW32 ~/Downloads/class26/AngryBirdsStage2.5StudentActivity (master)
+$
